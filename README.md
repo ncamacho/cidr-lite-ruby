@@ -22,10 +22,10 @@ Or install it yourself as:
 
 ## Usage
 
-`lite = CIDR::Lite.new`
-`lite.add('192.168.1.0/24')`
-`lite.add('192.168.1.0/16')`
-`assert_eq(lite.list, ['192.168.0.0/16']`
+        lite = CIDR::Lite.new
+        lite.add('192.168.1.0/24')
+        lite.add('192.168.1.0/16')
+        assert_eq(lite.list, ['192.168.0.0/16'])
 
 ## Caveats
 
