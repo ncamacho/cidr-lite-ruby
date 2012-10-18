@@ -1,4 +1,4 @@
-require "cidr-lite-ruby/version"
+require "cidr-lite/version"
 
 module CIDR
   class Lite
