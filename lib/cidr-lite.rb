@@ -52,8 +52,14 @@ module CIDR
     end
 
     def find(ip)
-      
+      results = Hash.new(0)
+      in_range = 0
     end
+
+    def prep_find
+
+    end
+
 
     private
 
